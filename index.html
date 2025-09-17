@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">   <!-- Navigation Bar / Nav Section-->
+        <div class="container">
+            <a class="navbar-brand" href="#home"> &#129368;La'CHEF</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#order">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#food">Food</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#restaurant">Restaurant</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+    <div class="hero" id="home">  <!-- Home / Landing page-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 hero-content">
+                    <h1 class="hero-title"> La'CHEF RESTAURANT</h1>
+                    <p class="hero-text">
+                     Gratefull to Welcome's You!<br>
+                     We believe great food brings people together. That's why we focus on using fresh ingredients, thoughtful recipes, and simple flavors that feel just right. Whether you're dropping by for a casual meal, celebrating with friends and family, or looking for something comforting after a long day, we're here to make you feel at home. Good food, genuine service, and a relaxed atmosphere—that's what we're all about. Come in, take a seat, and enjoy a meal made with care. </p>
+                    <a href="#contact" class="btn btn-primary"> Location</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+<section>
+        <video autoplay muted loop id="background-video">
+        <source src="asserts/background video.mp4" type="video/mp4">
+    </video>
+
+    <section id="food">
+        <div class="container">
+            <h2 class="section-title text-white">Our Signatures!</h2>   <!-- Our restaurent's Star Items-->
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="../ASSIGNMENT/asserts/image 1.jpg" class="card-img-top" alt="Food 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Deserts & Junks</h5>
+                            <p class="card-text">Indulge in our delightful range of desserts, where every bite is rich, sweet, and perfectly satisfying. Pair it with our tempting junk foods for a crunchy, savory treat that's hard to resist..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="asserts/image 2.jpg" class="card-img-top" alt="Food 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Chinese</h5>
+                            <p class="card-text">Maecenas metus quam, rhoncus euismod lorem in, sollicitudin viverra eros. Donec dictum luctus quam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="../ASSIGNMENT/asserts/image 3.jpg" class="card-img-top" alt="Food 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Indian's</h5>
+                            <p class="card-text">Quisque congue sem nec justo mollis, in tincidunt erat pretium. Sed pulvinar, massa ac porta viverra.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+    <section id="testimonials" style="background-color: #f8f9fa;">   <!-- Testimonials Section-->
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex mb-3">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </div>
+                            <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id est vitae dolor rhoncus tristique. Maecenas metus quam, rhoncus euismod lorem in."</p>
+                            <div class="d-flex align-items-center mt-3">
+                                <div class="flex-shrink-0">
+                                    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 50 50'><circle cx='25' cy='25' r='20' fill='%23e9ecef'/><text x='25' y='30' font-family='Arial' font-size='20' fill='%23555' text-anchor='middle'>JS</text></svg>" alt="Customer" class="rounded-circle">
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h6 class="mb-0">John Smith</h6>
+                                    <small class="text-muted">Regular Customer</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex mb-3">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </div>
+                            <p class="card-text">"Quisque congue sem nec justo mollis, in tincidunt erat pretium. Sed pulvinar, massa ac porta viverra. Donec dictum luctus quam ut tristique. Curabitur nec faucibus purus."</p>
+                            <div class="d-flex align-items-center mt-3">
+                                <div class="flex-shrink-0">
+                                    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 50 50'><circle cx='25' cy='25' r='20' fill='%23e9ecef'/><text x='25' y='30' font-family='Arial' font-size='20' fill='%23555' text-anchor='middle'>EM</text></svg>" alt="Customer" class="rounded-circle">
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h6 class="mb-0">Emma Johnson</h6>
+                                    <small class="text-muted">Food Blogger</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>         <!-- Footer Section -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h4 class="footer-title">La'CHEF Restaurant</h4>
+                    <p>We focus on using fresh ingredients, and simple flavors that feel just right. <br>Take a seat, and enjoy a meal made with care.<br>Visit Again and Thank you for spend time with us..!</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#order">Order</a></li>
+                        <li><a href="#food">Food</a></li>
+                        <li><a href="#home">Restaurant</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <h4 class="footer-title">More Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 mb-4" id="contact">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <ul class="footer-links">
+                        <p>Feel free to make touch!</p>
+                        <li><i class="fas fa-map-marker-alt me-2"></i> 123 Restaurant Street, Food City</li>
+                        <li><i class="fas fa-phone me-2"></i> (123) 456-7890</li>
+                        <li><i class="fas fa-envelope me-2"></i> info@gourmet.com</li>
+                        <li><i class="fas fa-clock me-2"></i> Open: 9:00 AM - 10:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center copyright">
+                <p>&copy; 2025 September. All rights are Reserved & Design by Arunkumar</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 50) {
+                document.querySelector('.navbar').style.padding = '10px 0';
+                document.querySelector('.navbar').style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+            } else {
+                document.querySelector('.navbar').style.padding = '15px 0';
+                document.querySelector('.navbar').style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+            }
+        });
+    </script>
+</body>
+</html>
